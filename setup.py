@@ -58,9 +58,9 @@ setup(
     setup_requires=pytest_runner,
     tests_require=test_deps,
     extras_require={
-        ':platform_system=="Linux"': [
-            'spidev', 'RPI.GPIO'
-        ],
+#         ':platform_system=="Linux"': [
+#             'spidev', 'RPI.GPIO'
+#         ],
         ':python_version<"3.3"': [
             'monotonic'
         ],
